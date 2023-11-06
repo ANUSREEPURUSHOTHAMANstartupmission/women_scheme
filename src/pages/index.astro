@@ -1,0 +1,307 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Countdown from '../components/Countdown.svelte';
+import Speakers from '../components/Speakers.svelte';
+import TimelineItem from "../components/TimelineItem.svelte";
+
+---
+
+<Layout  title="Kerala Startup Mission">
+	<main class="py-24 min-h-screen flex flex-col justify-center" >
+		<div class="absolute -z-10 w-full h-full top-0 left-0 bg-black bg-opacity-10"></div>
+  	<div class="absolute -z-20 bg-cover bg-center bg-no-repeat w-full h-full top-0 left-0" style="background-image:url('/img/bg10.png')"></div>  
+<div class=" absolute top-1 left-3"><img src="/img/logo.svg" class=" h-28 z-50 w-28"></div>
+		<div class="container  text-white  bg-[#40543E] w-fit bg-opacity-70 p-10 md:mx-40">
+				<h1 class=" text-6xl font-bold">Pre-Incubation </h1>
+				<h1 class=" text-6xl font-bold">Program for Women</h1>
+				<p class=" text-sm mt-4">A 3 month program with online sessions and physical meetups</p>
+				<p class=" bg-[#E8AD55] w-fit px-5 py-1 mt-4 font-semibold ">by Kerala Startup Mission</p>
+		</div>
+		
+	</main>
+
+	<section class="py-24 relative">
+		<div class="container mx-auto">
+			<div class=" grid md:grid-cols-2 grid-cols-1 gap-8 px-5  mx-auto">
+				<div class=" mx-auto items-center justify-center flex md:w-2/4 w-full">
+					<div class=" mx-auto  justify-center items-center relative">
+						<h1 class=" z-50 text-[#40543E] text-5xl font-bold" style="font-family: Poppins', sans-serif;">Timeline</h1>
+						<img src="/img/d5.png" class=" absolute -z-20  -top-6 ">
+						<div class=" items-start justify-start text-start ">
+							<div class=" pt-8 space-y-3">
+								<p class="text-[#40543E] text-lg font-semibold uppercase ">2 November , 2023:</p>
+								<p class=" text-[#E8AD55] pl-20  uppercase text-base font-semibold">Registrations Open</p>
+							</div>
+							<div class=" pt-8 space-y-3">
+								<p class="text-[#40543E] text-lg font-semibold uppercase ">17 November , 2023:</p>
+								<p class=" text-[#E8AD55]  pl-20 uppercase text-base font-semibold">Official Launch</p>
+							</div>
+							<div class=" pt-8 space-y-3">
+								<p class="text-[#40543E] text-lg font-semibold uppercase ">8 December , 2023:
+								</p>
+								<p class=" text-[#E8AD55] pl-20  uppercase text-base font-semibold">Kick off Event</p>
+							</div>
+							<div class=" pt-8 space-y-3">
+								<p class="text-[#40543E] text-lg font-semibold uppercase ">8 March  , 2024:</p>
+								<p class=" text-[#E8AD55] pl-20  uppercase text-base font-semibold"> Graduation Day</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					<img src="/img/dots1.svg" alt="dots" class="absolute w-20 opacity-25 top-2 left-2">
+
+				<div class="mx-auto ">
+					<div class="  mx-auto w-2/4 relative">
+						<h1 class=" text-[#40543E] text-5xl font-bold" style="font-family: Poppins', sans-serif;">Need</h1>
+						<img src="/img/d5.png" class=" absolute -z-20  -top-6 ">
+					</div>
+					
+					
+					<div class=" pt-8 text-justify md:w-3/4 w-full leading-8">
+						<p class="">
+							Only 18% of startups are founded by women and less than 20%  of women hold key roles in the Indian startups. This lack of female representation is in contrast with studies that show that women directors in active board roles positively contribute to firms’ financial performances and economic value creation. 
+	
+						</p>
+						<p class=" pt-4">
+							This pre-incubation program offered by KSUM aims to identify strong women innovators and provide them the necessary business fundamentals and tools to   build successful companies.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img src="/img/dots1.svg" alt="dots" class="absolute w-20 opacity-25 bottom-2 right-2">
+		
+	</section>
+	
+	<section class=" container mx-auto w-5/6 relative pb-10">
+		<h1 class=" relative z-50 text-[#40543E] pb-9 text-4xl font-bold" style="font-family: Poppins';">About the Event</h1>
+		<img src="/img/d5.png" class=" absolute -z-20 right-1/5 -top-6 ">
+		
+		<p class=" leading-loose text-justify">The 3-month virtual pre-incubation  program is designed exclusively for women entrepreneurs to tackle the challenges faced and to gain access to tools and knowledge to run their business ventures. The program offers  12 comprehensive workshops which cover essential aspects of the entrepreneurial journey, from business foundations to product development and  mastering the market. Whether you're just starting with an idea or further along in your business venture, we welcome women entrepreneurs from all backgrounds to join us and embark on the journey to turn your startup dreams into reality.</p>
+	
+	</section>
+	<section class=" relative md:pt-10 pt-4">
+		<div class=" grid md:grid-cols-2 grid-cols-1">
+			<div class="w-full">
+				<img src="/img/bg3.png">
+			</div>
+			<div class=" relative md:mt-16 mt-8 px-5 ">
+				<h1 class=" relative z-50 text-[#40543E] pb-9 text-4xl font-bold" style="font-family: Poppins';">Key Takeaways
+				</h1>
+				<img src="/img/d5.png" class=" absolute -z-20 right-1/5 -top-6 ">
+
+				<div class=" md:w-3/4 leading-7 text-justify">
+					<ul class=" list-disc list-outside">
+						<li class="py-3">Exclusive access to a series of 12 workshops that cover everything from startup basics to advanced growth strategies 
+						</li>
+						<li class="py-3">Connect with a community of like-minded women entrepreneurs, mentors, and potential collaborators through our offline meet-ups .
+						</li>
+						<li class="py-3">Learnings that will help you to take your startup from an idea to a well-structured, growth-oriented business. 
+						</li>
+						<li class="py-3">Get firsthand insights and live Q & A sessions from industry experts who've been there, done that, and achieved success. 
+						</li>
+						<li class="py-3">Access exclusive event resources, materials, and propel your business to new heights.
+						</li>
+					</ul>
+
+					<p class=" bg-[#E8AD55] w-fit px-5 py-1 mt-4 font-semibold text-white ">Start, Grow, Succeed!</p>
+
+				</div>
+			</div>
+
+		</div>
+		<img src="/img/dots1.svg" alt="dots" class="absolute w-20 opacity-25 top-2 left-2 animate-ping">
+		
+		<img src="/img/dots1.svg" alt="dots" class="absolute w-20 opacity-25 bottom-2 right-2">
+
+	</section>
+
+	<section class=" container mx-auto my-24 relative px-5">
+		<h1 class=" relative z-50 text-[#40543E] pb-9 text-4xl font-bold" style="font-family: Poppins';">Sessions at a glance</h1>
+		<img src="/img/d5.png" class=" absolute -z-20 right-1/5 -top-6 ">
+		
+		<div class=" mx-auto flex items-center justify-center pt-10 ">
+			
+			<ol class="relative  mx-auto items-center justify-center border-l border-gray-200 dark:border-gray-700">                  
+				<li class="mb-10 ml-6 space-y-3">
+					<div class="absolute w-6 h-6 bg-[#E8AD55] rounded-full mt-3 -left-3 border border-white "></div>
+					<time class="mb-1 md:text-2xl text-xl uppercase font-semibold leading-none  text-[#E8AD55]">PHASE 1 -Startup Foundations</time>
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">sEssion 1: RUNNING A COMPANY 101</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Navigating Legal and Compliance for Early-Stage Startups</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">session 2: Mastering Startup Finance
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Financial Management (Cash Flow, Operating Profit, Unit Economics) for Startups
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">SESSION 3: Building Strong Foundations
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Importance of Corporate Governance for Startups 
+
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">SESSION 4: Getting help
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Schemes to help your Startup Journey
+						</li>
+					</ul>
+					
+				</li>
+
+				<li class="mb-10 ml-6 space-y-3">
+					<div class="absolute w-6 h-6 bg-[#E8AD55] rounded-full mt-3 -left-3 border border-white "></div>
+					<time class="mb-1 md:text-2xl text-xl uppercase font-semibold leading-none  text-[#E8AD55]">PHASE 2 -Product Development
+
+					</time>
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">sEssion 5: LEAN STARTUP MODEL
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Role of Lean Startup Principles in building sustainable business
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">session 6: From MVP to MMP
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Turning Minimum Viable Product into Minimal Marketable Product
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">SESSION 7: Crafting Product Success
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Understanding Product Management frameworks & theories
+
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">SESSION 8:  Curating Customer Experiences
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">How to Deliver Customer Experience that makes you standout
+						</li>
+					</ul>
+					
+				</li>
+
+				<li class="mb-10 ml-6 space-y-3">
+					<div class="absolute w-6 h-6 bg-[#E8AD55] rounded-full mt-3 -left-3 border border-white "></div>
+					<time class="mb-1 md:text-2xl text-xl uppercase font-semibold leading-none  text-[#E8AD55]">PHASE 3 -Market and Customer Mastery</time>
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">sEssion 9: Your Roadmap to Success
+
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Go To Market Strategies and Growth Hacking
+
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">session 10: Branding and Digital Marketing </h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Strategies to improve brand presence to reach customers
+
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">SESSION 11: Customer Acquisition & Retention </h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">Strategies for Acquiring and Retaining Customers
+						</li>
+					</ul>
+
+					<h3 class="text-base font-semibold text-gray-900 dark:text-white uppercase">SESSION 12:  Building for the Future
+
+					</h3>
+					<ul class=" list-disc list-inside marker:text-[#E8AD55] font-normal">
+						<li class="text-base font-normal">How to plan ahead for a Sustainable Growth</li>
+					</ul>
+					
+				</li>
+				
+			</ol>
+
+			
+		</div>
+		<img src="/img/dots1.svg" alt="dots" class="absolute w-20 opacity-25 top-2 left-2 animate-ping">
+		
+		<img src="/img/dots1.svg" alt="dots" class="absolute w-20 opacity-25 bottom-2 right-2">
+
+	</section>
+
+	<div class=" pb-24">
+		<a class="button mx-auto flex text-center  justify-center items-center "  href="https://bit.ly/PIPKSUM" target="_blank" >Apply Now</a>
+
+	</div>
+</Layout>
+
+<style>
+	body{
+		font-family:'Poppins', sans-serif ;
+	}
+</style>
+
+<style lang="scss" is:global>
+	
+	.button{
+	  position: relative;
+	  display: block;
+	  width: 200px;
+	  height: 45px;
+	  line-height: 40px;
+	  color: #E8AD55;
+	  font-size: 16px;
+	  font-weight: 700;
+	  text-align: center;
+	  text-transform: uppercase;
+	  overflow: hidden;
+	  border-radius: 50px;
+	  border: 2px solid #E8AD55;
+	  transition: all 2s ease;
+  
+	  &:hover{
+		color: #fff;
+		position: relative;
+		z-index: 1;
+  
+		&::before{
+		  left: 0%;
+		  right: auto;
+		  width: 100%;
+		  z-index: -1;
+		}
+  
+		&::after{
+  
+		}
+	  }
+  
+	  &::before{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		height: 100%;
+		width: 0px;
+		content: '';
+		background: #E8AD55;
+		color: #fff;
+		transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	  }
+  
+	  &::after{
+		content: "";
+		position: absolute;
+		height: 0%;
+		left: 50%;
+		top: 50%;
+		width: 150%;
+		transition: all 0.75s ease 0s;
+	  }
+	}
+  </style>
